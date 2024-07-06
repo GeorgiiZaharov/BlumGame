@@ -1,0 +1,4 @@
+<map id="ObjectLogic::set_direction" name="ObjectLogic::set_direction">
+<area shape="rect" id="node1" title="Установить направление движения объекта." alt="" coords="209,5,400,32"/>
+<area shape="rect" id="node2" href="$classObject.html#a0e9ab37645742dcf9dfab1c3d5d2b5e2" title="Установить направление движения объекта." alt="" coords="5,5,161,32"/>
+</map>

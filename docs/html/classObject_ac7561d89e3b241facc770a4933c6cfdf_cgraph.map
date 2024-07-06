@@ -1,0 +1,4 @@
+<map id="Object::get_rect" name="Object::get_rect">
+<area shape="rect" id="node1" title="Получить прямоугольник, описывающий границы объекта." alt="" coords="5,5,131,32"/>
+<area shape="rect" id="node2" href="$classObjectLogic.html#a354a9cbcdfb4bffeeb856b7efb540fa3" title="Получить прямоугольник, описывающий границы объекта." alt="" coords="179,5,337,32"/>
+</map>

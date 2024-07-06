@@ -1,0 +1,5 @@
+<map id="Label::draw" name="Label::draw">
+<area shape="rect" id="node1" title="Отрисовка метки на окне." alt="" coords="5,13,103,39"/>
+<area shape="rect" id="node2" href="$classAnimation.html#a729711fd19dfd9125b437834cb65dc9c" title="Получить текущий спрайт на основе текущего времени. Изменяет m_is_running на false после демонстрации..." alt="" coords="151,13,313,39"/>
+<area shape="rect" id="node3" href="$classAnimationLogic.html#a09a3b092f29042e36cb96bba2ebff6dd" title="Вычислить текущий индекс кадра на основе текущего времени." alt="" coords="361,5,524,47"/>
+</map>

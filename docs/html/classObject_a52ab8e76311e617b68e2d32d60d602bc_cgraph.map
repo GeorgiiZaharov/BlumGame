@@ -1,0 +1,9 @@
+<map id="Object::draw" name="Object::draw">
+<area shape="rect" id="node1" title="Отрисовка объекта в окне." alt="" coords="5,64,109,91"/>
+<area shape="rect" id="node2" href="$classObject.html#ac7561d89e3b241facc770a4933c6cfdf" title="Получить прямоугольник, описывающий границы объекта." alt="" coords="176,9,301,36"/>
+<area shape="rect" id="node4" href="$classAnimation.html#a729711fd19dfd9125b437834cb65dc9c" title="Получить текущий спрайт на основе текущего времени. Изменяет m_is_running на false после демонстрации..." alt="" coords="157,64,320,91"/>
+<area shape="rect" id="node6" href="$classAnimation.html#a0463679e0602518c400931c475ccc5c3" title="Метод для возращения статуса нециклической анимации." alt="" coords="169,119,308,145"/>
+<area shape="rect" id="node3" href="$classObjectLogic.html#a354a9cbcdfb4bffeeb856b7efb540fa3" title="Получить прямоугольник, описывающий границы объекта." alt="" coords="375,5,534,32"/>
+<area shape="rect" id="node5" href="$classAnimationLogic.html#a09a3b092f29042e36cb96bba2ebff6dd" title="Вычислить текущий индекс кадра на основе текущего времени." alt="" coords="373,57,536,98"/>
+<area shape="rect" id="node7" href="$classAnimationLogic.html#a2652e6ef7fcf51746d63ef35a638cf61" title="Метод для возращения статуса нециклической анимации." alt="" coords="368,123,541,149"/>
+</map>

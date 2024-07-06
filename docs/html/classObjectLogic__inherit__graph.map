@@ -1,0 +1,7 @@
+<map id="ObjectLogic" name="ObjectLogic">
+<area shape="rect" id="node1" title="Класс для логики объекта." alt="" coords="252,5,459,435"/>
+<area shape="rect" id="node2" href="$classObject.html" title="Класс объекта с анимацией, который наследует логику из ObjectLogic и добавляет графический интерфейс" alt="" coords="228,483,483,1044"/>
+<area shape="rect" id="node3" href="$classBlum.html" title="Класс Blum, наследующий от Object." alt="" coords="5,1092,223,1272"/>
+<area shape="rect" id="node4" href="$classBomb.html" title="Класс Bomb, наследующий от Object." alt="" coords="247,1092,464,1272"/>
+<area shape="rect" id="node5" href="$classIce.html" title="Класс Ice, наследующий от Object." alt="" coords="488,1099,705,1265"/>
+</map>

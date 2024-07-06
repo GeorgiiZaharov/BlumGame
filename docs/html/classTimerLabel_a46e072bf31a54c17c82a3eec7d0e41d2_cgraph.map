@@ -1,0 +1,4 @@
+<map id="TimerLabel::set_time" name="TimerLabel::set_time">
+<area shape="rect" id="node1" title="Устанавливает текущее время." alt="" coords="5,5,165,32"/>
+<area shape="rect" id="node2" href="$classLabel.html#a3686cc1f442dac34d91c48a1cfb8710a" title="Установка текста." alt="" coords="213,5,343,32"/>
+</map>

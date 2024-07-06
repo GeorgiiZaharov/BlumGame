@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classAnimationLogic.html" title="Класс для логики анимации, который не зависит от графического интерфейса." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$classAnimation.html" title="Класс для анимации, который наследует логику из AnimationLogic и добавляет графический интерфейс." alt="" coords="176,5,265,32"/>
+</map>

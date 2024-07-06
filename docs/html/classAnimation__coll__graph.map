@@ -1,0 +1,4 @@
+<map id="Animation" name="Animation">
+<area shape="rect" id="node1" title="Класс для анимации, который наследует логику из AnimationLogic и добавляет графический интерфейс." alt="" coords="5,395,216,707"/>
+<area shape="rect" id="node2" href="$classAnimationLogic.html" title="Класс для логики анимации, который не зависит от графического интерфейса." alt="" coords="5,5,216,347"/>
+</map>

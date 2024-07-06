@@ -1,0 +1,4 @@
+<map id="ObjectLogic::set_speed" name="ObjectLogic::set_speed">
+<area shape="rect" id="node1" title="Установить скорость движения объекта." alt="" coords="192,5,364,32"/>
+<area shape="rect" id="node2" href="$classObject.html#ab5a057887581a966a0283f889bbbc0a5" title="Установить скорость движения объекта." alt="" coords="5,5,144,32"/>
+</map>

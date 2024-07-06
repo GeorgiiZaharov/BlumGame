@@ -1,0 +1,4 @@
+<map id="ObjectLogic::move" name="ObjectLogic::move">
+<area shape="rect" id="node1" title="Переместить объект." alt="" coords="163,5,305,32"/>
+<area shape="rect" id="node2" href="$classObject.html#adcfd104da4a8ae6411f7a7db1af21fe6" title="Выполнить перемещение объекта на основе текущего времени." alt="" coords="5,5,115,32"/>
+</map>

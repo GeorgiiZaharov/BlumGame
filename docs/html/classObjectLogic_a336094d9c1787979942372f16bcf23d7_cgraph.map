@@ -1,0 +1,4 @@
+<map id="ObjectLogic::check_collision" name="ObjectLogic::check_collision">
+<area shape="rect" id="node1" title="Проверить столкновение с точкой." alt="" coords="5,5,149,47"/>
+<area shape="rect" id="node2" href="$classObjectLogic.html#a354a9cbcdfb4bffeeb856b7efb540fa3" title="Получить прямоугольник, описывающий границы объекта." alt="" coords="197,13,356,39"/>
+</map>

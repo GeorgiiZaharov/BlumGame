@@ -1,0 +1,6 @@
+<map id="Label::set_string" name="Label::set_string">
+<area shape="rect" id="node1" title="Установка текста." alt="" coords="440,31,569,57"/>
+<area shape="rect" id="node2" href="$classScoreLabel.html#a912a7c9b185d62f0ca52f5972a6f471c" title="Устанавливает текущее количество очков." alt="" coords="229,5,392,32"/>
+<area shape="rect" id="node3" href="$classTimerLabel.html#a46e072bf31a54c17c82a3eec7d0e41d2" title="Устанавливает текущее время." alt="" coords="231,56,391,83"/>
+<area shape="rect" id="node4" href="$classTimerLabel.html#adc3df1d2fcd6f7ad74bc42352247a92d" title="Конструктор с указанием игрового поля." alt="" coords="5,56,181,83"/>
+</map>

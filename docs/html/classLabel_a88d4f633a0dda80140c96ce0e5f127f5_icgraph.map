@@ -1,0 +1,5 @@
+<map id="Label::set_string_scale" name="Label::set_string_scale">
+<area shape="rect" id="node1" title="Установка параметров текста." alt="" coords="395,5,565,32"/>
+<area shape="rect" id="node2" href="$classScoreLabel.html#aa56544f10f11babe6396b6a96a45761b" title="Отрисовывает метку на окне." alt="" coords="213,5,347,32"/>
+<area shape="rect" id="node3" href="$classGameRenderer.html#ac43722ee7d93aa37d489c615b04658ba" title="Отрисовывает игровые объекты на окне." alt="" coords="5,5,165,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Animation::resize" name="Animation::resize">
+<area shape="rect" id="node1" title="Изменить размер спрайтов анимации." alt="" coords="280,56,416,83"/>
+<area shape="rect" id="node2" href="$classGameRenderer.html#afca710a5fd7d3f3358f830af70257232" title="Конструктор с указанием размеров игрового поля." alt="" coords="5,5,232,32"/>
+<area shape="rect" id="node3" href="$classLabel.html#ab322de48f7f517d6876d111c5b2980a9" title="Установка размера изображения." alt="" coords="33,56,204,83"/>
+<area shape="rect" id="node4" href="$classObject.html#aefffc7274ef542b70e301c93f6fcadc6" title="Установить размер объекта." alt="" coords="56,107,181,133"/>
+</map>

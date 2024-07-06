@@ -1,0 +1,9 @@
+<map id="GameRenderer::load_resources" name="GameRenderer::load_resources">
+<area shape="rect" id="node1" title="Загружает игровые ресурсы." alt="" coords="5,125,161,166"/>
+<area shape="rect" id="node2" href="$classBlum.html#abba112e7ef0412dc91f06f347af3323c" title="Загрузка ресурсов для класса Blum." alt="" coords="229,5,391,32"/>
+<area shape="rect" id="node3" href="$classIce.html#aaf4e82cb8aeae369ec0e7087ce15abd0" title="Загрузка ресурсов для класса Ice." alt="" coords="237,56,383,83"/>
+<area shape="rect" id="node4" href="$classBomb.html#a77502ccfab6be8cb1fb127b999644181" title="Загрузка ресурсов для класса Bomb." alt="" coords="227,107,393,133"/>
+<area shape="rect" id="node5" href="$classTimerLabel.html#a694a2a6bf3934d8d0fb9dac3f4b4cce4" title="Загружает ресурсы, необходимые для отображения таймера." alt="" coords="209,157,411,184"/>
+<area shape="rect" id="node6" href="$classScoreLabel.html#ac9d91a3bff7b36708d5b3dd8cc0368b0" title="Загружает ресурсы, необходимые для отображения метки." alt="" coords="211,208,409,235"/>
+<area shape="rect" id="node7" href="$classNumber.html#a138acb23c8886c1b0c76a37cf0a0a5de" title="Загружает необходимые ресурсы для класса Number." alt="" coords="220,259,400,285"/>
+</map>

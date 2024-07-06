@@ -1,0 +1,4 @@
+<map id="Object::get_rect" name="Object::get_rect">
+<area shape="rect" id="node1" title="Получить прямоугольник, описывающий границы объекта." alt="" coords="157,5,283,32"/>
+<area shape="rect" id="node2" href="$classObject.html#a52ab8e76311e617b68e2d32d60d602bc" title="Отрисовка объекта в окне." alt="" coords="5,5,109,32"/>
+</map>

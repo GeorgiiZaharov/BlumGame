@@ -1,0 +1,5 @@
+<map id="Object::set_size" name="Object::set_size">
+<area shape="rect" id="node1" title="Установить размер объекта." alt="" coords="5,31,131,57"/>
+<area shape="rect" id="node2" href="$classAnimation.html#a4f8e5fbc5ae838fc0708c761ca138677" title="Изменить размер спрайтов анимации." alt="" coords="190,5,326,32"/>
+<area shape="rect" id="node3" href="$classObjectLogic.html#aac6df887ad6ced381eab913e3bcd7a3a" title="Установить размер объекта." alt="" coords="179,56,337,83"/>
+</map>

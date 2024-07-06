@@ -1,0 +1,151 @@
+/*! \mainpage My Project Documentation
+
+  \section intro_sec Introduction
+
+  This is the introduction.
+
+  \section install_sec Installation
+
+  This is how you install it.
+
+  \section usage_sec Usage
+
+  This is how you use it.
+
+  \section license_sec License
+
+  This is the license.
+
+*/
+
+/* General styles */
+body {
+    background-color: #1e1e1e;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+div.header {
+    background-color: #333;
+    color: #ddd;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+div.header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+/* Navigation bar styles */
+div.navbar {
+    background-color: #444;
+    padding: 10px;
+}
+
+div.navbar a {
+    color: #ddd;
+    padding: 5px 10px;
+}
+
+div.navbar a:hover {
+    background-color: #555;
+}
+
+/* Content styles */
+div.content {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+div.footer {
+    background-color: #333;
+    color: #888;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Code block styles */
+div.fragment {
+    background-color: #2e2e2e;
+    color: #ddd;
+    border: 1px solid #555;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+}
+
+pre.fragment {
+    margin: 0;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #555;
+    color: #ddd;
+}
+
+/* Code block syntax highlighting */
+pre.code {
+    background-color: #2e2e2e;
+    color: #ddd;
+    border: 1px solid #555;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+}
+
+span.keyword { color: #569cd6; }
+span.comment { color: #57a64a; font-style: italic; }
+span.string { color: #d69d85; }
+span.preprocessor { color: #569cd6; }
+span.operator { color: #c586c0; }
+span.number { color: #b5cea8; }
+
+/* Override default doxygen styles */
+div.contents {
+    background-color: #2e2e2e;
+    border: 1px solid #555;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Override footer */
+div.footer {
+    background-color: #2e2e2e;
+    color: #888;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+}

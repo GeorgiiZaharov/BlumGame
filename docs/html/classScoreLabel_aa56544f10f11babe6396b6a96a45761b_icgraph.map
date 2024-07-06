@@ -1,0 +1,4 @@
+<map id="ScoreLabel::draw" name="ScoreLabel::draw">
+<area shape="rect" id="node1" title="Отрисовывает метку на окне." alt="" coords="213,5,347,32"/>
+<area shape="rect" id="node2" href="$classGameRenderer.html#ac43722ee7d93aa37d489c615b04658ba" title="Отрисовывает игровые объекты на окне." alt="" coords="5,5,165,32"/>
+</map>

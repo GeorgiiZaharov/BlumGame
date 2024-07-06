@@ -1,0 +1,5 @@
+<map id="ScoreLabel::set_score" name="ScoreLabel::set_score">
+<area shape="rect" id="node1" title="Устанавливает текущее количество очков." alt="" coords="5,31,168,57"/>
+<area shape="rect" id="node2" href="$classLabel.html#a3686cc1f442dac34d91c48a1cfb8710a" title="Установка текста." alt="" coords="245,5,375,32"/>
+<area shape="rect" id="node3" href="$classLabel.html#a8644c4edc50b84d399e264c5222906a6" title="Установка позиции текста." alt="" coords="216,56,404,83"/>
+</map>

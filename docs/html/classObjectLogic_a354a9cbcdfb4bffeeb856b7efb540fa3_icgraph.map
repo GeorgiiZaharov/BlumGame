@@ -1,0 +1,7 @@
+<map id="ObjectLogic::get_rect" name="ObjectLogic::get_rect">
+<area shape="rect" id="node1" title="Получить прямоугольник, описывающий границы объекта." alt="" coords="377,42,536,69"/>
+<area shape="rect" id="node2" href="$classObjectLogic.html#a336094d9c1787979942372f16bcf23d7" title="Проверить столкновение с точкой." alt="" coords="185,5,329,47"/>
+<area shape="rect" id="node4" href="$classObject.html#ac7561d89e3b241facc770a4933c6cfdf" title="Получить прямоугольник, описывающий границы объекта." alt="" coords="195,71,320,98"/>
+<area shape="rect" id="node3" href="$classObject.html#a162e51b9dbb74eeecbc64327f2d28aac" title="Попытаться нажать объект по указанной позиции мыши." alt="" coords="5,13,137,39"/>
+<area shape="rect" id="node5" href="$classObject.html#a52ab8e76311e617b68e2d32d60d602bc" title="Отрисовка объекта в окне." alt="" coords="19,71,123,98"/>
+</map>

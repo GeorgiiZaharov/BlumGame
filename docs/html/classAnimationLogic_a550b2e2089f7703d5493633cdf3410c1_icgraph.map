@@ -1,0 +1,6 @@
+<map id="AnimationLogic::start" name="AnimationLogic::start">
+<area shape="rect" id="node1" title="Метод для начала нециклической анимации с начала." alt="" coords="387,31,548,57"/>
+<area shape="rect" id="node2" href="$classAnimation.html#a65045737bea891912e37f135d237b912" title="Начать анимацию с начала." alt="" coords="212,31,339,57"/>
+<area shape="rect" id="node3" href="$classGameRenderer.html#a5da18e454b07f1bc8b311764b5f0dbcc" title="Обрабатывает событие клика мыши." alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node4" href="$classObject.html#a162e51b9dbb74eeecbc64327f2d28aac" title="Попытаться нажать объект по указанной позиции мыши." alt="" coords="19,56,151,83"/>
+</map>

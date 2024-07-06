@@ -1,0 +1,4 @@
+<map id="Object" name="Object">
+<area shape="rect" id="node1" title="Класс объекта с анимацией, который наследует логику из ObjectLogic и добавляет графический интерфейс" alt="" coords="5,483,260,1044"/>
+<area shape="rect" id="node2" href="$classObjectLogic.html" title="Класс для логики объекта." alt="" coords="29,5,236,435"/>
+</map>

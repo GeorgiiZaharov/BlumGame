@@ -1,0 +1,4 @@
+<map id="GameRenderer::GameRenderer" name="GameRenderer::GameRenderer">
+<area shape="rect" id="node1" title="Конструктор с указанием размеров игрового поля." alt="" coords="5,5,232,32"/>
+<area shape="rect" id="node2" href="$classAnimation.html#a4f8e5fbc5ae838fc0708c761ca138677" title="Изменить размер спрайтов анимации." alt="" coords="280,5,416,32"/>
+</map>

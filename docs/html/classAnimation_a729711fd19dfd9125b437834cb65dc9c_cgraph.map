@@ -1,0 +1,4 @@
+<map id="Animation::get_sprite" name="Animation::get_sprite">
+<area shape="rect" id="node1" title="Получить текущий спрайт на основе текущего времени. Изменяет m_is_running на false после демонстрации..." alt="" coords="5,13,168,39"/>
+<area shape="rect" id="node2" href="$classAnimationLogic.html#a09a3b092f29042e36cb96bba2ebff6dd" title="Вычислить текущий индекс кадра на основе текущего времени." alt="" coords="216,5,379,47"/>
+</map>

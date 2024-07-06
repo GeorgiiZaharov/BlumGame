@@ -1,0 +1,7 @@
+<map id="ScoreLabel::draw" name="ScoreLabel::draw">
+<area shape="rect" id="node1" title="Отрисовывает метку на окне." alt="" coords="5,38,139,65"/>
+<area shape="rect" id="node2" href="$classLabel.html#adc93e10a46bc1195c83931dc91c78fae" title="Отрисовка метки на окне." alt="" coords="223,13,321,39"/>
+<area shape="rect" id="node5" href="$classLabel.html#a88d4f633a0dda80140c96ce0e5f127f5" title="Установка параметров текста." alt="" coords="187,63,357,90"/>
+<area shape="rect" id="node3" href="$classAnimation.html#a729711fd19dfd9125b437834cb65dc9c" title="Получить текущий спрайт на основе текущего времени. Изменяет m_is_running на false после демонстрации..." alt="" coords="405,13,568,39"/>
+<area shape="rect" id="node4" href="$classAnimationLogic.html#a09a3b092f29042e36cb96bba2ebff6dd" title="Вычислить текущий индекс кадра на основе текущего времени." alt="" coords="616,5,779,47"/>
+</map>

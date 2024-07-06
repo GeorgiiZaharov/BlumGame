@@ -1,0 +1,4 @@
+<map id="ScoreLabel::load_resources" name="ScoreLabel::load_resources">
+<area shape="rect" id="node1" title="Загружает ресурсы, необходимые для отображения метки." alt="" coords="209,13,408,39"/>
+<area shape="rect" id="node2" href="$classGameRenderer.html#a4b0342c33cb6f97b861d44a078796e7d" title="Загружает игровые ресурсы." alt="" coords="5,5,161,47"/>
+</map>

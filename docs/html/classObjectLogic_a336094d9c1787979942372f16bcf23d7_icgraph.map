@@ -1,0 +1,4 @@
+<map id="ObjectLogic::check_collision" name="ObjectLogic::check_collision">
+<area shape="rect" id="node1" title="Проверить столкновение с точкой." alt="" coords="185,5,329,47"/>
+<area shape="rect" id="node2" href="$classObject.html#a162e51b9dbb74eeecbc64327f2d28aac" title="Попытаться нажать объект по указанной позиции мыши." alt="" coords="5,13,137,39"/>
+</map>

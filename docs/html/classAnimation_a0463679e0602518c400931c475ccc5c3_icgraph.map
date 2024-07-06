@@ -1,0 +1,5 @@
+<map id="Animation::is_end" name="Animation::is_end">
+<area shape="rect" id="node1" title="Метод для возращения статуса нециклической анимации." alt="" coords="213,31,352,57"/>
+<area shape="rect" id="node2" href="$classGameRenderer.html#ac43722ee7d93aa37d489c615b04658ba" title="Отрисовывает игровые объекты на окне." alt="" coords="5,5,165,32"/>
+<area shape="rect" id="node3" href="$classObject.html#a52ab8e76311e617b68e2d32d60d602bc" title="Отрисовка объекта в окне." alt="" coords="33,56,137,83"/>
+</map>

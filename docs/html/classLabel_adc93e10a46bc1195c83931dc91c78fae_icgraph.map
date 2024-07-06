@@ -1,0 +1,6 @@
+<map id="Label::draw" name="Label::draw">
+<area shape="rect" id="node1" title="Отрисовка метки на окне." alt="" coords="396,31,493,57"/>
+<area shape="rect" id="node2" href="$classTimerLabel.html#a531940c2ce6a1ebd9a7eb293e1f810db" title="Отрисовывает метку таймера на окне." alt="" coords="213,5,348,32"/>
+<area shape="rect" id="node4" href="$classScoreLabel.html#aa56544f10f11babe6396b6a96a45761b" title="Отрисовывает метку на окне." alt="" coords="214,56,347,83"/>
+<area shape="rect" id="node3" href="$classGameRenderer.html#ac43722ee7d93aa37d489c615b04658ba" title="Отрисовывает игровые объекты на окне." alt="" coords="5,31,165,57"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Object::try_press" name="Object::try_press">
+<area shape="rect" id="node1" title="Попытаться нажать объект по указанной позиции мыши." alt="" coords="5,42,137,69"/>
+<area shape="rect" id="node2" href="$classObjectLogic.html#a336094d9c1787979942372f16bcf23d7" title="Проверить столкновение с точкой." alt="" coords="185,5,329,47"/>
+<area shape="rect" id="node4" href="$classAnimation.html#a65045737bea891912e37f135d237b912" title="Начать анимацию с начала." alt="" coords="194,71,321,98"/>
+<area shape="rect" id="node3" href="$classObjectLogic.html#a354a9cbcdfb4bffeeb856b7efb540fa3" title="Получить прямоугольник, описывающий границы объекта." alt="" coords="379,13,537,39"/>
+<area shape="rect" id="node5" href="$classAnimationLogic.html#a550b2e2089f7703d5493633cdf3410c1" title="Метод для начала нециклической анимации с начала." alt="" coords="377,71,539,98"/>
+</map>

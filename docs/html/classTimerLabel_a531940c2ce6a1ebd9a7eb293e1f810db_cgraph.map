@@ -1,0 +1,6 @@
+<map id="TimerLabel::draw" name="TimerLabel::draw">
+<area shape="rect" id="node1" title="Отрисовывает метку таймера на окне." alt="" coords="5,13,140,39"/>
+<area shape="rect" id="node2" href="$classLabel.html#adc93e10a46bc1195c83931dc91c78fae" title="Отрисовка метки на окне." alt="" coords="188,13,285,39"/>
+<area shape="rect" id="node3" href="$classAnimation.html#a729711fd19dfd9125b437834cb65dc9c" title="Получить текущий спрайт на основе текущего времени. Изменяет m_is_running на false после демонстрации..." alt="" coords="333,13,496,39"/>
+<area shape="rect" id="node4" href="$classAnimationLogic.html#a09a3b092f29042e36cb96bba2ebff6dd" title="Вычислить текущий индекс кадра на основе текущего времени." alt="" coords="544,5,707,47"/>
+</map>
