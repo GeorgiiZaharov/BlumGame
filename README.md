@@ -7,4 +7,4 @@
 ## Установка
 
 ## Для разработки
-* [**Документация**](Documentation.url)
+* [**Документация**](https://github.com/GeorgiiZaharov/BlumGame/blob/main/docs/html/index.html)
