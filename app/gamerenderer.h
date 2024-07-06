@@ -51,7 +51,7 @@ public:
      * @brief Проверяет, завершена ли игра.
      * @return True, если игра завершена, false в противном случае.
      */
-    bool is_game_over(void);
+    bool is_game_over(void) const;
 
     /**
      * @brief Отрисовывает игровые объекты на окне.
@@ -122,7 +122,7 @@ private:
      * @param cur_time Текущее время в миллисекундах.
      */
     template <typename T>
-    void move_elements(std::list<T>& list, int32_t cur_time);
+    void move_elements(std::list<T>& list, int32_t cur_time) const;
 
     /**
      * @brief Изменяет направление движения элементов.
@@ -131,14 +131,14 @@ private:
      * @param direct Новый вектор направления.
      */
     template <typename T>
-    void change_direction_elements(std::list<T>& list, const sf::Vector2f& direct);
+    void change_direction_elements(std::list<T>& list, const sf::Vector2f& direct) const;
 
     /**
      * @brief Определяет, должен ли объект появиться на основе вероятности.
      * @param chance Вероятность появления объекта (от 0 до 1000).
      * @return True, если объект должен появиться, false в противном случае.
      */
-    bool should_spawn_object(std::size_t chance);
+    bool should_spawn_object(std::size_t chance) const;
 
     bool m_is_freezing = false; ///< Флаг, указывающий на нахождение игры в режиме заморозки.
     bool m_is_boom = false; ///< Флаг, указывающий на наличие взрыва в игре.
@@ -166,8 +166,13 @@ private:
 
     std::list<Number> m_numbers; ///< Список объектов типа Number в игре.
 
-    std::map<std::string, std::size_t> statistics; ///< Карта для хранения игровой статистики.
-
+    std::map<std::string, std::size_t, std::less<>> statistics =///< Карта для хранения игровой статистики.
+    {
+        {"miss", 0},
+        {"bomb", 0},
+        {"ice",  0},
+        {"blum", 0}
+    };
     Animation m_background_anim; ///< Анимация для фона.
     Animation m_frozen_background_anim; ///< Анимация для замороженного фона.
     Animation m_boom_background_anim; ///< Анимация для взрывающегося фона.

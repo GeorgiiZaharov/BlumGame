@@ -59,31 +59,31 @@ private:
      * @param seconds Время в секундах.
      * @return Форматированная строка.
      */
-    std::string formatSeconds(int seconds);
+    std::string format_seconds(int seconds) const;
 
     /**
      * @brief Вычисляет позицию текста по оси X.
      * @return Позиция текста по оси X.
      */
-    float calc_text_x_position(void);
+    float calc_text_x_position(void) const;
 
     /**
      * @brief Вычисляет позицию текста по оси Y.
      * @return Позиция текста по оси Y.
      */
-    float calc_text_y_position(void);
+    float calc_text_y_position(void) const;
 
     /**
      * @brief Вычисляет позицию изображения по оси X.
      * @return Позиция изображения по оси X.
      */
-    float calc_pic_x_position(void);
+    float calc_pic_x_position(void) const;
 
     /**
      * @brief Вычисляет позицию изображения по оси Y.
      * @return Позиция изображения по оси Y.
      */
-    float calc_pic_y_position(void);
+    float calc_pic_y_position(void) const;
 
     /**
      * @brief Устанавливает настройки для метки.
@@ -153,46 +153,38 @@ public:
      */
     static bool load_resources(void);
 
-    /**
-     * @brief Устанавливает настройки для метки.
-     * такие как: цвет текста, размер текста, позицию текста, стиль текста,
-     * размер картинки позицию картинки
-     * @param label - метка которую нужно настроить.
-     */
-    void label_settings(Label& label);
-
 private:
     /**
      * @brief Вычисляет позицию текста по оси X.
      * @param hitbox Прямоугольник, определяющий границы игрового поля.
      * @return Позиция текста по оси X.
      */
-    float calc_text_x_position(const sf::FloatRect& hitbox);
+    float calc_text_x_position(const sf::FloatRect& hitbox) const;
 
     /**
      * @brief Вычисляет позицию текста по оси Y.
      * @return Позиция текста по оси Y.
      */
-    float calc_text_y_position(void);
+    float calc_text_y_position(void) const;
 
     /**
      * @brief Вычисляет позицию изображения по оси X.
      * @param hitbox Прямоугольник, определяющий границы игрового поля.
      * @return Позиция изображения по оси X.
      */
-    float calc_pic_x_position(const sf::FloatRect& hitbox);
+    float calc_pic_x_position(const sf::FloatRect& hitbox) const;
 
     /**
      * @brief Вычисляет позицию изображения по оси Y.
      * @return Позиция изображения по оси Y.
      */
-    float calc_pic_y_position(const sf::FloatRect& hitbox);
+    float calc_pic_y_position(const sf::FloatRect& hitbox) const;
 
     /**
      * @brief Вычисляет текущую позицию метки.
      * @return Вектор, содержащий текущую позицию метки.
      */
-    sf::Vector2f calc_cur_label_position(void);
+    sf::Vector2f calc_cur_label_position(void) const;
 
     /**
      * @brief Обновляет изображение метки.

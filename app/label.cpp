@@ -1,7 +1,7 @@
 #include "label.h"
 
 
-Label::Label(sf::Texture& tex, std::size_t n_sprites, int32_t change_time, sf::Font& font)
+Label::Label(sf::Texture& tex, std::size_t n_sprites, int32_t change_time, const sf::Font& font)
     :m_anim(tex, n_sprites, change_time)
 {
     m_text.setFont(font);

@@ -23,7 +23,12 @@ public:
     /**
      * @brief Конструктор по умолчанию.
      */
-    explicit Blum() = default;
+    explicit Blum(void) = default;
+
+    /**
+     * @brief Деструктор по умолчанию.
+     */
+    ~Blum() override = default;
 
     /**
      * @brief Конструктор класса Blum.
@@ -89,6 +94,11 @@ public:
     explicit Ice(const sf::FloatRect& game_board);
 
     /**
+     * @brief Деструктор по умолчанию.
+     */
+    ~Ice() override = default;
+
+    /**
      * @brief Конструктор перемещения класса Ice.
      */
     explicit Ice(Ice&& other) noexcept;
@@ -141,6 +151,11 @@ public:
      * @param game_board Прямоугольник, представляющий игровое поле.
      */
     explicit Bomb(const sf::FloatRect& game_board);
+
+    /**
+     * @brief Деструктор по умолчанию.
+     */
+    ~Bomb() override = default;
 
     /**
      * @brief Конструктор перемещения класса Bomb.

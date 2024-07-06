@@ -111,7 +111,7 @@ public:
     /**
      * @brief Деструктор.
      */
-    ~Animation(void) = default;
+    ~Animation(void) override = default;
 
     /**
      * @brief Получить текущий спрайт на основе текущего времени. Изменяет m_is_running на false после демонстрации всех спрайтов.

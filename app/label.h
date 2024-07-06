@@ -24,7 +24,7 @@ public:
      * @param change_time Время смены спрайтов в анимации.
      * @param font Шрифт для текста метки.
      */
-    explicit Label(sf::Texture& tex, std::size_t n_sprites, int32_t change_time, sf::Font& font);
+    explicit Label(sf::Texture& tex, std::size_t n_sprites, int32_t change_time, const sf::Font& font);
 
     /**
      * @brief Деструктор.

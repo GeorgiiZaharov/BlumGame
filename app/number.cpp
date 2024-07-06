@@ -74,7 +74,7 @@ void Number::move(int32_t cur_time)
     m_last_upgrade_time = cur_time;
 }
 
-void Number::draw(sf::RenderWindow& window)
+void Number::draw(sf::RenderWindow& window) const
 {
     // Отрисовка текста в окне рендеринга
     window.draw(m_text);

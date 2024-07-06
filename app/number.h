@@ -38,7 +38,7 @@ public:
      * @brief Рисует число на указанном окне рендеринга.
      * @param window Окно рендеринга SFML, на котором будет нарисовано число.
      */
-    void draw(sf::RenderWindow& window);
+    void draw(sf::RenderWindow& window) const;
 
     /**
      * @brief Проверяет, активен ли номер.

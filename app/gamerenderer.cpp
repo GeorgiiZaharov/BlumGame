@@ -22,13 +22,7 @@ GameRenderer::GameRenderer(const sf::FloatRect& game_board)
     m_frozen_background_anim.resize(game_board_size);
     m_boom_background_anim.resize(game_board_size);
 
-    // Инициализация статистики
-    statistics = {
-        {"miss", 0},
-        {"bomb", 0},
-        {"ice", 0},
-        {"blum", 0}
-    };
+
 }
 
 // Метод обновления игры
@@ -92,7 +86,7 @@ void GameRenderer::click(const sf::Vector2f &mouse_pos)
 }
 
 // Проверка окончания игры
-bool GameRenderer::is_game_over(void)
+bool GameRenderer::is_game_over(void) const
 {
     return m_time_passed > mc_match_time; // Возвращает true, если время игры истекло
 }
@@ -304,7 +298,7 @@ void GameRenderer::remove_died_elements(std::list<T>& list)
 
 // Движение элементов
 template <typename T>
-void GameRenderer::move_elements(std::list<T>& list, int32_t cur_time)
+void GameRenderer::move_elements(std::list<T>& list, int32_t cur_time) const
 {
     std::for_each(list.begin(), list.end(), [cur_time](T& obj){
        obj.move(cur_time);
@@ -313,7 +307,7 @@ void GameRenderer::move_elements(std::list<T>& list, int32_t cur_time)
 
 // Изменение направления движения элементов
 template <typename T>
-void GameRenderer::change_direction_elements(std::list<T>& list, const sf::Vector2f& direct)
+void GameRenderer::change_direction_elements(std::list<T>& list, const sf::Vector2f& direct) const
 {
     std::for_each(list.begin(), list.end(), [direct](T& obj){
        obj.set_direction(direct);
@@ -321,7 +315,7 @@ void GameRenderer::change_direction_elements(std::list<T>& list, const sf::Vecto
 }
 
 // Проверка нужно ли создать новый объект
-bool GameRenderer::should_spawn_object(std::size_t chance)
+bool GameRenderer::should_spawn_object(std::size_t chance) const
 {
     std::size_t cur_num = ms_dist(ms_gen); // генерируем случайное число
 

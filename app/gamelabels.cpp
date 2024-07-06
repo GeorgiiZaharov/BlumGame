@@ -32,7 +32,7 @@ void TimerLabel::ice(void)
 void TimerLabel::set_time(int32_t cur_time)
 {
     // устанавливаем текущее время
-    std::string timer_str = formatSeconds(cur_time);
+    std::string timer_str = format_seconds(cur_time);
     m_label_idle.set_string(timer_str);
     m_label_ice.set_string(timer_str);
 }
@@ -63,7 +63,8 @@ void TimerLabel::draw(sf::RenderWindow &window, int32_t cur_time)
 }
 
 // Форматирование времени в строку формата "MM:SS"
-std::string TimerLabel::formatSeconds(int seconds) {
+std::string TimerLabel::format_seconds(int seconds) const
+{
     int minutes = seconds / 60;
     int remainingSeconds = seconds % 60;
 
@@ -92,23 +93,23 @@ bool TimerLabel::load_resources(void)
     return success;
 }
 
-float TimerLabel::calc_text_x_position(void)
+float TimerLabel::calc_text_x_position(void) const
 {
     return m_game_board.left + 35.f;
 }
 
-float TimerLabel::calc_text_y_position(void)
+float TimerLabel::calc_text_y_position(void) const
 {
 
     return m_game_board.top + 15.f;
 }
 
-float TimerLabel::calc_pic_x_position(void)
+float TimerLabel::calc_pic_x_position(void) const
 {
     return m_game_board.left + 15.f;
 }
 
-float TimerLabel::calc_pic_y_position(void)
+float TimerLabel::calc_pic_y_position(void) const
 {
     return m_game_board.top + 15.f;
 }
@@ -254,7 +255,7 @@ bool ScoreLabel::load_resources(void)
     return success;
 }
 
-float ScoreLabel::calc_text_x_position(const sf::FloatRect& hitbox)
+float ScoreLabel::calc_text_x_position(const sf::FloatRect& hitbox) const
 {
     float right_edge_game_board = m_game_board.left + m_game_board.width;
     float right_duration = 15.f; // величина отступа от границы с права
@@ -264,7 +265,7 @@ float ScoreLabel::calc_text_x_position(const sf::FloatRect& hitbox)
     return x_pos;
 }
 
-float ScoreLabel::calc_text_y_position(void)
+float ScoreLabel::calc_text_y_position(void) const
 {
     float top_edge_game_board = m_game_board.top;
     float up_duration = 15.f;   // Величина отступа от верхней границы
@@ -274,18 +275,18 @@ float ScoreLabel::calc_text_y_position(void)
     return y_pos;
 }
 
-float ScoreLabel::calc_pic_x_position(const sf::FloatRect& hitbox)
+float ScoreLabel::calc_pic_x_position(const sf::FloatRect& hitbox) const
 {
     return hitbox.left - hitbox.height;
 }
 
-float ScoreLabel::calc_pic_y_position(const sf::FloatRect& hitbox)
+float ScoreLabel::calc_pic_y_position(const sf::FloatRect& hitbox) const
 {
     return hitbox.top;
 }
 
 // Рассчитывает позицию метки
-sf::Vector2f ScoreLabel::calc_cur_label_position(void)
+sf::Vector2f ScoreLabel::calc_cur_label_position(void) const
 {
     // Получаем ее ограничивающий прямоугольник
     sf::FloatRect text_rect = m_label_idle.get_string_rect();
