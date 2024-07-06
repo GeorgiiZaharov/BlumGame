@@ -43,7 +43,7 @@ namespace
         float pos_y = game_board.top - size;
         obj.set_position(sf::Vector2f(pos_x, pos_y));  ///< Установка позиции объекта
 
-        float speed = random_on_duration(100.f, 150.f);
+        float speed = random_on_duration(150.f, 200.f);
         obj.set_speed(speed);  ///< Установка скорости объекта
     }
 }
@@ -85,9 +85,9 @@ Blum& Blum::operator=(Blum&& other) noexcept
  * @param game_board Прямоугольник, представляющий игровое поле.
  */
 Blum::Blum(const sf::FloatRect& game_board)
-    : Object(ms_glow_tex, 15, 1000,  // Инициализация базового класса Object с glow текстурой, количеством спрайтов и задержкой
-             ms_activ_tex, 3, 200,
-             ms_idle_tex, 12, 200)
+    : Object(ms_glow_tex, 12, 200,  // Инициализация базового класса Object с glow текстурой, количеством спрайтов и задержкой
+             ms_activ_tex, 3, 150,
+             ms_idle_tex, 15, 150)
 {
     setting_object(*this, game_board);
 }
@@ -152,7 +152,7 @@ Ice& Ice::operator=(Ice&& other) noexcept
  * @param game_board Прямоугольник, представляющий игровое поле.
  */
 Ice::Ice(const sf::FloatRect& game_board)
-    : Object(ms_glow_tex, 1, 1000,  // Инициализация базового класса Object с текстурой glow, количеством спрайтов и задержкой
+    : Object(ms_glow_tex, 2, 242,  // Инициализация базового класса Object с текстурой glow, количеством спрайтов и задержкой
              ms_activ_tex, 4, 200,
              ms_idle_tex, 9, 200)
 {
@@ -170,7 +170,7 @@ bool Ice::load_resources()
 {
     bool success = true;
 
-    if (!ms_glow_tex.loadFromFile("src/null.png"))
+    if (!ms_glow_tex.loadFromFile("src/ice_glow.png"))
         success = false;
 
     if (!ms_activ_tex.loadFromFile("src/ice_activ.png"))

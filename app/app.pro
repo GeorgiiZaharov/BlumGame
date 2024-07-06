@@ -7,7 +7,7 @@ SOURCES +=  \
     gamelabels.cpp \
     gameobjects.cpp \
     gamerenderer.cpp \
-    gamescreen.cpp \
+#    gamescreen.cpp \
     label.cpp \
     main.cpp \
     animation.cpp \
@@ -19,7 +19,7 @@ HEADERS +=  \
     gamelabels.h \
     gameobjects.h \
     gamerenderer.h \
-    gamescreen.h \
+#    gamescreen.h \
     label.h \
     number.h \
     object.h

@@ -162,7 +162,7 @@ private:
 
     std::size_t m_bomb_probability = 2; ///< Вероятность появления бомб (от 0 до 1000).
     std::size_t m_ice_probability = 2; ///< Вероятность появления льда (от 0 до 1000).
-    std::size_t m_blum_probability = 60; ///< Вероятность появления Blum (от 0 до 1000).
+    std::size_t m_blum_probability = 100; ///< Вероятность появления Blum (от 0 до 1000).
 
     std::list<Number> m_numbers; ///< Список объектов типа Number в игре.
 

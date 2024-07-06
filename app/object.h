@@ -136,7 +136,7 @@ public:
     /**
      * @brief Виртуальный деструктор по умолчанию.
      */
-    virtual ~Object() = default;
+    ~Object() override = default;
 
     /**
      * @brief Конструктор перемещения.
